@@ -1,20 +1,27 @@
 # Introduction to Object-Oriented Programming with Python: Creating and Using Classes
 
 # Class Definition
-
+class Car:
 # Constructor (Initialization) - __init__ method
+  def __init__(self, make, model):
+    self.make = make
+    self.model = model
+    
+def start_engine(self)
+  print(f"The {self.make} {self.model}'s engine is running!")
 
-# Encapsulation: Attributes (make and model) are encapsulated within the class.
-
-
-# Method - start_engine
-
-# Encapsulation: Accessing attributes through self.
-
-
-# Creating instances (objects) of the Car class
 
 # Inheritance: Car is a class that can be used to create objects (instances).
+car1 = Car("Toyota", "Camry")
+car2 = Car("Ford", "Mustang")
+
+Print(f"I have a {car1.make} {carl.model}.)
+Print(f"I also own a {car2.make} {car2.model}.)
+
+car1.start_engine()
+car2.start_engine()
+
+
 # Abstraction: We create objects without worrying about the internal details of the Car class.
 
 # Creating the first car (object)
